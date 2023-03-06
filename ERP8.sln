@@ -15,17 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HataYonetimi", "HataYonetim
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HataYonetimi", "HataYonetimi\HataYonetimi.csproj", "{7D19E091-70C3-4DF9-AA37-DBF49ACB9AE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitapci", "Kitapci\Kitapci.csproj", "{F06A9CFF-003F-439F-A65A-66B65BD4CDC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitapci", "Kitapci\Kitapci.csproj", "{F06A9CFF-003F-439F-A65A-66B65BD4CDC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kitapci.Lib", "Kitapci.Lib\Kitapci.Lib.csproj", "{AD96C4EE-0222-45E8-861A-BE50D9B2BB81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitapci.Lib", "Kitapci.Lib\Kitapci.Lib.csproj", "{AD96C4EE-0222-45E8-861A-BE50D9B2BB81}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KitapciDukkani", "KitapciDukkani", "{CA55AC03-F5F4-4A5E-9F29-EC0A80D32A69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar", "RentACar\RentACar.csproj", "{199FE4B9-6827-4D00-AF6F-31823D923441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar", "RentACar\RentACar.csproj", "{199FE4B9-6827-4D00-AF6F-31823D923441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.Lib", "RentACar.Lib\RentACar.Lib.csproj", "{78B9F13C-F4A6-45C6-B01B-9E29DC3D4E5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar.Lib", "RentACar.Lib\RentACar.Lib.csproj", "{78B9F13C-F4A6-45C6-B01B-9E29DC3D4E5D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RentACarr", "RentACarr", "{C9C8793C-0413-4A5F-8BFE-04BAC2550C9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinAliCizimi", "CinAliCizimi\CinAliCizimi.csproj", "{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{78B9F13C-F4A6-45C6-B01B-9E29DC3D4E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78B9F13C-F4A6-45C6-B01B-9E29DC3D4E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78B9F13C-F4A6-45C6-B01B-9E29DC3D4E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
