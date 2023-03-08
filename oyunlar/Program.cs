@@ -27,7 +27,7 @@ do
 
 } while (devamMi);
 
-Console.WriteLine("program sonlandı");
+Console.WriteLine("program sonlandıı");
 
 
 
