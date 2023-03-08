@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar.Lib", "RentACar.Li
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RentACarr", "RentACarr", "{C9C8793C-0413-4A5F-8BFE-04BAC2550C9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinAliCizimi", "CinAliCizimi\CinAliCizimi.csproj", "{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinAliCizimi", "CinAliCizimi\CinAliCizimi.csproj", "{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZarTahminOyunu", "ZarTahminOyunu\ZarTahminOyunu.csproj", "{91C5A9E1-EB27-48C3-B9E8-4CC5133F1219}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C5A9E1-EB27-48C3-B9E8-4CC5133F1219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C5A9E1-EB27-48C3-B9E8-4CC5133F1219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C5A9E1-EB27-48C3-B9E8-4CC5133F1219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C5A9E1-EB27-48C3-B9E8-4CC5133F1219}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
