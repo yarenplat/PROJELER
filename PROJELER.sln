@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RentACarr", "RentACarr", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinAliCizimi", "CinAliCizimi\CinAliCizimi.csproj", "{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OgrenciUygulamasi", "ÖgrenciUygulamasi\OgrenciUygulamasi.csproj", "{744B704E-CA28-434D-98A5-7202E106C513}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94282D01-8C8A-454F-9DCF-DCD4FEA7A6B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744B704E-CA28-434D-98A5-7202E106C513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744B704E-CA28-434D-98A5-7202E106C513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744B704E-CA28-434D-98A5-7202E106C513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744B704E-CA28-434D-98A5-7202E106C513}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
