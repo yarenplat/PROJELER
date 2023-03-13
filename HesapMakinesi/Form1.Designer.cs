@@ -31,7 +31,6 @@
             this.lblEkran = new System.Windows.Forms.Label();
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.btn4 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
             this.btn5 = new System.Windows.Forms.Button();
@@ -83,17 +82,7 @@
             this.btn2.TabIndex = 1;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.LightCoral;
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(164, 68);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(70, 70);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "1";
-            this.button3.UseVisualStyleBackColor = false;
+            
             // 
             // btn4
             // 
@@ -238,9 +227,8 @@
         private Label lblEkran;
         private Button btn1;
         private Button btn2;
-        private Button button3;
-        private Button btn4;
         private Button btn3;
+        private Button btn4;
         private Button btn5;
         private Button btn6;
         private Button btn8;
