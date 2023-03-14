@@ -2,6 +2,16 @@ namespace CafeSiparis
 {
     public partial class BAGY : Form
     {
+        int caySayisi = 0;
+        double cayFiyat = 2.5;
+        double cay = 0;
+        int kahveSayisi = 0;
+        double kahveFiyat = 5.25;
+        double kahve = 0;
+        int gazozSayisi = 0;
+        double gazozFiyat = 6.75;
+        double gazoz = 0;
+        double TOPLAM = 0;
         public BAGY()
         {
             InitializeComponent();
@@ -14,14 +24,14 @@ namespace CafeSiparis
 
         private void btnCA_Click(object sender, EventArgs e)
         {
-            int caySayisi = Convert.ToInt32(lblCaySayisi.Text);
+
             caySayisi++;
             lblCaySayisi.Text = Convert.ToString(caySayisi);
         }
 
         private void btnCE_Click(object sender, EventArgs e)
         {
-            int caySayisi = Convert.ToInt32(lblCaySayisi.Text);
+
             if (caySayisi > 0)
             {
                 caySayisi--;
@@ -32,14 +42,14 @@ namespace CafeSiparis
 
         private void btnKA_Click(object sender, EventArgs e)
         {
-            int kahveSayisi = Convert.ToInt32(lblKahveSayisi.Text);
+
             kahveSayisi++;
             lblKahveSayisi.Text = Convert.ToString(kahveSayisi);
         }
 
         private void btnKE_Click(object sender, EventArgs e)
         {
-            int kahveSayisi = Convert.ToInt32(lblKahveSayisi.Text);
+
             if (kahveSayisi > 0)
             {
                 kahveSayisi--;
@@ -50,24 +60,28 @@ namespace CafeSiparis
 
         private void btnGA_Click(object sender, EventArgs e)
         {
-            int gazozoSayisi = Convert.ToInt32(lblGazozSayisi.Text);
-            gazozoSayisi++;
-            lblGazozSayisi.Text = Convert.ToString(gazozoSayisi);
+
+            gazozSayisi++;
+            lblGazozSayisi.Text = Convert.ToString(gazozSayisi);
         }
 
         private void btnGE_Click(object sender, EventArgs e)
         {
-            int gazozoSayisi = Convert.ToInt32(lblGazozSayisi.Text);
-            if (gazozoSayisi > 0)
+
+            if (gazozSayisi > 0)
             {
-                gazozoSayisi--;
-                lblGazozSayisi.Text = Convert.ToString(gazozoSayisi);
+                gazozSayisi--;
+                lblGazozSayisi.Text = Convert.ToString(gazozSayisi);
             }
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            caySayisi = 0;
+            kahveSayisi = 0;
+            gazozSayisi = 0;
+
             lblCaySayisi.Text = "0";
             lblKahveSayisi.Text = "0";
             lblGazozSayisi.Text = "0";
@@ -75,7 +89,11 @@ namespace CafeSiparis
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Sipariþ Özeti " + lblCaySayisi.Text + " ÇAY " + lblKahveSayisi.Text + " KAHVE " + lblGazozSayisi.Text + " GAZOZ");
+            cay = caySayisi * cayFiyat;
+            kahve = kahveSayisi * kahveFiyat;
+            gazoz = gazozSayisi * gazozFiyat;
+            TOPLAM = cay + kahve + gazoz;
+            MessageBox.Show("Sipariþ Özeti " + lblCaySayisi.Text + " ÇAY " + lblKahveSayisi.Text + " KAHVE " + lblGazozSayisi.Text + " GAZOZ"+"*******" +" HESAP="+TOPLAM);
         }
     }
 }
