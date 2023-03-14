@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CinAliCizimi", "CinAliCizim
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OgrenciUygulamasi", "ÖgrenciUygulamasi\OgrenciUygulamasi.csproj", "{744B704E-CA28-434D-98A5-7202E106C513}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HesapMakinesi", "HesapMakinesi\HesapMakinesi.csproj", "{A51A4929-FE3E-436B-B306-187A61353147}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HesapMakinesi", "HesapMakinesi\HesapMakinesi.csproj", "{A51A4929-FE3E-436B-B306-187A61353147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeSiparis", "CafeSiparis\CafeSiparis.csproj", "{784D82A9-DC4F-4BB8-8EA7-D753B9693D04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{A51A4929-FE3E-436B-B306-187A61353147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A51A4929-FE3E-436B-B306-187A61353147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A51A4929-FE3E-436B-B306-187A61353147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784D82A9-DC4F-4BB8-8EA7-D753B9693D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784D82A9-DC4F-4BB8-8EA7-D753B9693D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784D82A9-DC4F-4BB8-8EA7-D753B9693D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784D82A9-DC4F-4BB8-8EA7-D753B9693D04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
